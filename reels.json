@@ -1,7 +1,7 @@
 [
     {
         "id": "reel-1",
-        "video": "/video/reel 1.mp4",
+        "video": "https://github.com/Dharmub376/jsons/blob/main/video/reel%201.mp4",
         "author": {
             "name": "User Name",
             "id": "user-1"
