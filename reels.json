@@ -3,12 +3,48 @@
         "id": "reel-1",
         "video": "https://raw.githubusercontent.com/Dharmub376/jsons/main/video/reel%201.mp4",
         "author": {
-            "name": "User Name",
+            "name": "Jethalal Gada",
             "id": "user-1"
         },
         "likes": 1500,
         "comments": 45,
         "caption": "Pliss.😫",
+        "timestamp": "2023-09-15T10:00:00Z"
+    },
+    {
+        "id": "reel-2",
+        "video": "https://raw.githubusercontent.com/Dharmub376/jsons/main/video/reel%202.mp4",
+        "author": {
+            "name": "Satish Pandey",
+            "id": "user-2"
+        },
+        "likes": 1980,
+        "comments": 45,
+        "caption": "Bantai.🤥",
+        "timestamp": "2023-09-15T10:00:00Z"
+    },
+    {
+        "id": "reel-3",
+        "video": "https://raw.githubusercontent.com/Dharmub376/jsons/main/video/reel%203.mp4",
+        "author": {
+            "name": "IIT Chaiwala",
+            "id": "user-3"
+        },
+        "likes": 2560,
+        "comments": 45,
+        "caption": "Chai Also.☕",
+        "timestamp": "2023-09-15T10:00:00Z"
+    },
+    {
+        "id": "reel-4",
+        "video": "https://raw.githubusercontent.com/Dharmub376/jsons/main/video/reel%204.mp4",
+        "author": {
+            "name": "Tiger Shroff",
+            "id": "user-4"
+        },
+        "likes": 500,
+        "comments": 45,
+        "caption": "Chhoti Bacchi ho kya.😫",
         "timestamp": "2023-09-15T10:00:00Z"
     }
 ]
