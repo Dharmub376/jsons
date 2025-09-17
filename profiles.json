@@ -1,11 +1,11 @@
 [
     {
         "id": "post-1",
-        "content": "hello",
-        "image": "",
+        "content": "Final Day! Nepal is Ready for Scotland T20I Tri-Series❤️",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%201.jpg",
         "author": {
             "id": "user-1",
-            "name": "Bigyan Kafle"
+            "name": "CAN-Nepal"
         },
         "timestamp": "2025-09-15T10:00:00Z",
         "likes": {
@@ -17,26 +17,194 @@
         "comments": [
             {
                 "id": "comment-1",
-                "text": "bcnb",
+                "text": "Hurrey!🌸⚡",
                 "author": "Dharmu",
                 "userId": "user-2",
                 "timestamp": "2025-09-15T10:30:00Z"
             }
         ],
-        "likeCount": 1
+        "likeCount": 9800
     },
-    
     {
         "id": "post-2",
-        "content": "This is my second post without image",
+        "content": "Restock Alert⚠️. Grab Bhusal's Sabun Surf Udhyog Products From Nearby Stores.😊",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%202.png",
         "author": {
             "id": "user-2",
-            "name": "Dharmu"
+            "name": "Tead Active"
         },
-        "timestamp": "2025-09-16T12:00:00Z",
-        "likes": {},
-        "bookmarks": {},
-        "comments": [],
-        "likeCount": 0
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Great Products. Highly Recommended.👍",
+                "author": "Bigyan Kafle",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 1024
+    },
+    {
+        "id": "post-3",
+        "content": "Meet The Winner Of e-Sewa Presents Season-6 Nepal Idol Mr Shibu Pandey.🤥 ",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%203.png",
+        "author": {
+            "id": "user-3",
+            "name": "Nepal Idol"
+        },
+        "timestamp": "2025-08-25T10:00:00Z",
+        "likes": {
+            "user-1": false
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Nice Hidden Talent, Keep it Hidden.👍",
+                "author": "Nirmal Dhakal",
+                "userId": "user-4",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 3
+    },
+    {
+        "id": "post-4",
+        "content": "Happy Ghatastaphana Friends and Family.🩷🌸",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%204.jpeg",
+        "author": {
+            "id": "user-6",
+            "name": "Momo Central"
+        },
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": true
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Happy Dashain❤️",
+                "author": "Hari Bhandari",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 2400
+    },
+    {
+        "id": "post-5",
+        "content": "Riyal😫",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%205.jpg",
+        "author": {
+            "id": "user-7",
+            "name": "Meme-Nepal"
+        },
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Heart Attracking Match.😳",
+                "author": "Bigyan Kafle",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 102
+    },
+{
+        "id": "post-6",
+        "content": "Fanta, Sab Clear Chha⚡",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%206.jpeg",
+        "author": {
+            "id": "user-8",
+            "name": "Fanta Nepal"
+        },
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Chill😳",
+                "author": "Pratik Poudel",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 2001
+    },
+    {
+        "id": "post-2",
+        "content": "Just Launched.😊",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%207.jpeg",
+        "author": {
+            "id": "user-8",
+            "name": "Apple Inc"
+        },
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": true
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Wow Very Expensive.😳",
+                "author": "Shibu Pandey",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 5008
+    },
+    {
+        "id": "post-9",
+        "content": "Hoodie For Winters",
+        "image": "https://raw.githubusercontent.com/Dharmub376/jsons/refs/heads/main/img/post%208.jpeg",
+        "author": {
+            "id": "user-9",
+            "name": "Mayan Fashions"
+        },
+        "timestamp": "2025-08-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "Great Color, Must Have.💚",
+                "author": "Sunil Neupane",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 6020
     }
 ]
