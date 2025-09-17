@@ -1,302 +1,42 @@
 [
     {
-        "name": "Anita Gurung",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-        "bio": "Environmental activist working to preserve Nepal's natural heritage.",
-        "address": {
-            "street": "Lakeside Rd",
-            "city": "Pokhara",
-            "country": "Nepal"
+        "id": "post-1",
+        "content": "hello",
+        "image": "",
+        "author": {
+            "id": "user-1",
+            "name": "Bigyan Kafle"
         },
-        "education": {
-            "degree": "MSc in Environmental Science",
-            "institution": "Tribhuvan University",
-            "graduation_year": 2019
-        }
+        "timestamp": "2025-09-15T10:00:00Z",
+        "likes": {
+            "user-1": true
+        },
+        "bookmarks": {
+            "user-1": false
+        },
+        "comments": [
+            {
+                "id": "comment-1",
+                "text": "bcnb",
+                "author": "Dharmu",
+                "userId": "user-2",
+                "timestamp": "2025-09-15T10:30:00Z"
+            }
+        ],
+        "likeCount": 1
     },
+    
     {
-        "name": "Rajesh Sharma",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "bio": "Software engineer with passion for technology education in rural areas.",
-        "address": {
-            "street": "Putalisadak",
-            "city": "Kathmandu",
-            "country": "Nepal"
+        "id": "post-2",
+        "content": "This is my second post without image",
+        "author": {
+            "id": "user-2",
+            "name": "Dharmu"
         },
-        "education": {
-            "degree": "BSc in Computer Engineering",
-            "institution": "Kathmandu University",
-            "graduation_year": 2018
-        }
-    },
-    {
-        "name": "Sunita Tamang",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-        "bio": "Registered nurse specializing in community healthcare services.",
-        "address": {
-            "street": "Boudha",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Bachelor of Nursing",
-            "institution": "Patan Academy of Health Sciences",
-            "graduation_year": 2020
-        }
-    },
-    {
-        "name": "Bikram Thapa",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-        "bio": "Tour guide with expertise in Himalayan trekking routes.",
-        "address": {
-            "street": "Thamel",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Diploma in Tourism Studies",
-            "institution": "NATHM (Nepal Academy of Tourism and Hotel Management)",
-            "graduation_year": 2017
-        }
-    },
-    {
-        "name": "Pramila Joshi",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
-        "bio": "Primary school teacher focused on child-centered education methods.",
-        "address": {
-            "street": "New Road",
-            "city": "Biratnagar",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Bachelor of Education",
-            "institution": "Mahendra Ratna Campus",
-            "graduation_year": 2016
-        }
-    },
-    {
-        "name": "Suresh Rai",
-        "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
-        "bio": "Agricultural specialist promoting organic farming techniques.",
-        "address": {
-            "street": "Bhanu Chowk",
-            "city": "Dharan",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "BSc in Agriculture",
-            "institution": "Agriculture and Forestry University",
-            "graduation_year": 2015
-        }
-    },
-    {
-        "name": "Laxmi KC",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-        "bio": "Social worker advocating for women's rights and education.",
-        "address": {
-            "street": "Bagar",
-            "city": "Pokhara",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "MA in Sociology",
-            "institution": "Prithvi Narayan Campus",
-            "graduation_year": 2018
-        }
-    },
-    {
-        "name": "Niraj Basnet",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "bio": "Journalist covering political and social issues in Nepal.",
-        "address": {
-            "street": "Baneshwor",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "BA in Journalism",
-            "institution": "Ratna Rajya Laxmi Campus",
-            "graduation_year": 2017
-        }
-    },
-    {
-        "name": "Sabina Magar",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
-        "bio": "Entrepreneur running a handicraft business supporting local artisans.",
-        "address": {
-            "street": "Patan Durbar Square",
-            "city": "Lalitpur",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Bachelor of Business Studies",
-            "institution": "Shankar Dev Campus",
-            "graduation_year": 2014
-        }
-    },
-    {
-        "name": "Rajan Adhikari",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-        "bio": "Civil engineer working on infrastructure development projects.",
-        "address": {
-            "street": "Gairidhara",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "BE in Civil Engineering",
-            "institution": "Pulchowk Engineering Campus",
-            "graduation_year": 2016
-        }
-    },
-    {
-        "name": "Bina Limbu",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-        "bio": "Professional trekker and mountaineering guide.",
-        "address": {
-            "street": "Jomsom",
-            "city": "Mustang",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "High School Diploma",
-            "institution": "Jomsom School",
-            "graduation_year": 2012
-        }
-    },
-    {
-        "name": "Kiran Thapa",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "bio": "Bank manager with expertise in microfinance initiatives.",
-        "address": {
-            "street": "New Road",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "MBA in Finance",
-            "institution": "Kathmandu University School of Management",
-            "graduation_year": 2015
-        }
-    },
-    {
-        "name": "Mina Sherpa",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-        "bio": "Mountaineer who has summited Everest three times.",
-        "address": {
-            "street": "Solu",
-            "city": "Solukhumbu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Diploma in Mountaineering",
-            "institution": "Nepal Mountaineering Association",
-            "graduation_year": 2013
-        }
-    },
-    {
-        "name": "Prakash Yadav",
-        "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
-        "bio": "Social media influencer promoting Nepali culture and tourism.",
-        "address": {
-            "street": "Kumaripati",
-            "city": "Lalitpur",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "BA in Media Studies",
-            "institution": "Patan Multiple Campus",
-            "graduation_year": 2019
-        }
-    },
-    {
-        "name": "Sarita Shrestha",
-        "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f",
-        "bio": "Architect specializing in earthquake-resistant designs.",
-        "address": {
-            "street": "Bhat Bhateni",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "MArch in Sustainable Design",
-            "institution": "Khwopa Engineering College",
-            "graduation_year": 2018
-        }
-    },
-    {
-        "name": "Amit Rana",
-        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-        "bio": "Professional photographer capturing Nepal's diverse landscapes.",
-        "address": {
-            "street": "Jawalakhel",
-            "city": "Lalitpur",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Diploma in Photography",
-            "institution": "Nepal Institute of Creative Arts",
-            "graduation_year": 2016
-        }
-    },
-    {
-        "name": "Deepa Pariyar",
-        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-        "bio": "Women's rights activist and community organizer.",
-        "address": {
-            "street": "Butwal",
-            "city": "Rupandehi",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "MA in Gender Studies",
-            "institution": "Padma Kanya Multiple Campus",
-            "graduation_year": 2017
-        }
-    },
-    {
-        "name": "Hari Basnet",
-        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-        "bio": "Traditional musician preserving Nepali folk music traditions.",
-        "address": {
-            "street": "Asan",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Certificate in Nepali Music",
-            "institution": "Nepal Sangeet Vidyalaya",
-            "graduation_year": 2010
-        }
-    },
-    {
-        "name": "Rina Limbu",
-        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-        "bio": "Hotel manager in a popular tourist destination.",
-        "address": {
-            "street": "Chhetrapati",
-            "city": "Kathmandu",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "BHM (Bachelor of Hotel Management)",
-            "institution": "NATHM (Nepal Academy of Tourism and Hotel Management)",
-            "graduation_year": 2015
-        }
-    },
-    {
-        "name": "Sagar Magar",
-        "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a",
-        "bio": "Electrician working on rural electrification projects.",
-        "address": {
-            "street": "Biratnagar",
-            "city": "Morang",
-            "country": "Nepal"
-        },
-        "education": {
-            "degree": "Diploma in Electrical Engineering",
-            "institution": "CTEVT (Council for Technical Education and Vocational Training)",
-            "graduation_year": 2014
-        }
+        "timestamp": "2025-09-16T12:00:00Z",
+        "likes": {},
+        "bookmarks": {},
+        "comments": [],
+        "likeCount": 0
     }
 ]
