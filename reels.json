@@ -1,0 +1,14 @@
+[
+    {
+        "id": "reel-1",
+        "video": "/video/reel 1.mp4",
+        "author": {
+            "name": "User Name",
+            "id": "user-1"
+        },
+        "likes": 1500,
+        "comments": 45,
+        "caption": "Pliss.😫",
+        "timestamp": "2023-09-15T10:00:00Z"
+    }
+]
